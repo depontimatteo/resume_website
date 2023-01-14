@@ -1,0 +1,428 @@
+{
+    "lang_id": "it",
+    "first_name": "Matteo",
+    "last_name": "De Ponti",
+    "role": "DevOps & Cloud Engineer",
+    "linkedin":"https://www.linkedin.com/in/matteo-de-ponti/",
+    "twitter":"https://www.twitter.com/depontimatteo",
+    "github":"https://www.github.com/depontimatteo",
+    "web":"www.maculade.com",
+    "email":"matteo.deponti@maculade.com",
+    "address": "via Matteotti 27/5",
+    "zip_code": "20068",
+    "city": "Peschiera Borromeo",
+    "city_area": "Milano",
+    "country": "Italia",
+    "phone": "(+39) 351.91.80.120",
+    "bio": "Mi occupo di architettare e sviluppare software (principalmente applicazioni web, API e bash scripting) e di gestire Sistemi Operativi in ambiente Linux, anche mediante orchestratori come Kubernetes. Architetto e gestisco infrastrutture in Cloud con AWS. Applico DevOps automatizzando la produzione, il testing e il rilascio di software. Programmo principalmente in Python, Perl, HTML5, Javascript e Bash, utilizzo webserver Apache2 e Nginx, appserver Gunicorn e Plack, web frameworks MVC Flask e Dancer2, DBMS PostgreSQL, MongoDB e mySQL. Sono esperto di hardware integrato, con esperienza su Raspberry Pi e Arduino. Sono abituato a realizzare i progetti IT in autonomia, secondo le linee guida ITIL® 4. Gestisco e coordino un team di sviluppatori.",
+    "experience": {
+        "0": {
+            "company": "Xidera srl",
+            "start": "Apr 2008",
+            "end": "Nov 2018",
+            "role": "Full Stack Software Engineer (Junior e Senior)",
+            "description": "Mi sono occupato di analisi e sviluppo di applicazioni web, di API e di gestione dei sistemi in ambiente Linux, con particolare cura verso le soluzioni embedded e non presidiate. Ho ricoperto il ruolo di Project Manager IT per tutti i progetti affrontati, secondo le linee guida ITIL. Progetti rilevanti: Chatbots, Sistema di gestione degli accessi pazienti presso diverse strutture, spesso sanitarie, revisione nuova versione S.O. caricato su dispositivi non presidiati"
+        },
+        "1": {
+            "company": "Xidera srl (GPI Group)",
+            "start": "Nov 2018",
+            "end": "Gen 2021",
+            "role": "DevOps & Cloud Engineer – Tech Team Lead",
+            "description": "Ho gestito il team di sviluppatori di Xidera, sia per quanto concerne lo sviluppo delle web applications e delle API di tutti i prodotti dell’azienda, sia per quanto riguarda lo sviluppo di software caricato su dispositivi non presidiati. Ho coordinato e architettato le soluzioni Cloud su AWS, finalizzate al traffico elevato e all’alta affidabilità. Ho introdotto la metodologia DevOps e CI/CD con strumenti come Ansible e Bitbucket. Gestisco i software interni. Ho fatto parte del parte del team di revisione dei processi. Mi sono occupato di effettuare tutte le analisi relative ai progetti IT e di gestirli fino al loro completamento, spesso sviluppando direttamente il software. Progetti rilevanti: sistema di pagamento automatico ai chioschi totem"
+        },
+        "2": {
+            "company": "Xidera srl (GPI Group)",
+            "start": "Mar 2020",
+            "end": "Gen 2021",
+            "role": "Prenotami.cloud Tech Lead",
+            "description": "Sono stato il capo-progetto tecnico di prenotami.cloud, una soluzione SaaS derivante da una profonda revisione architetturale di alcuni software legacy preesistenti, per garantirne scalabilità orizzontale e quindi poter gestire l’applicazione in alta affidabilità e disponibilità in Cloud AWS. Ho architettato l’infrastruttura su AWS, scompattando una applicazione monolitica in diversi servizi, per arrivare ad una soluzione SOA scalabile. Ho utilizzato chroot jails e Docker come sistemi di containerizzazione. Ho studiato e implementato una pipeline CI utilizzando Bitbucket Pipelines ed un sistema di CD con Ansible come strumento di delivery in produzione. Ho utilizzato locust.io come piattaforma di load & stress testing. Ho configurato ed usato diversi servizi AWS, sia per la creazione dell’infrastruttura (ELB, EC2, RDS, Route53, API GW, Lambda, solo per citarne alcuni) sia per le operations e il monitoraggio (CloudWatch). Il progetto prevede una gestione in modalità Agile, con metodologia Scrum e rilasci con sprint di una settimana."
+        },
+        "3": {
+            "company": "Fastweb SpA",
+            "start": "Feb 2021",
+            "end": "Ago 2021",
+            "role": "Network Automation Engineer",
+            "description": "Ho fatto parte del team di automazione del software che viene implementato per le piattaforme di gestione dei servizi in rete Fastweb. Ho gestito applicazioni a microservizi con container Docker, mi sono occupato della creazione delle risorse Kubernetes necessarie agli applicativi e dei deploy mediante Helm. Inoltre ho realizzato test automatici E2E utilizzando Robot Framework. Ho applicato DevOps utilizzando pipelines CI/CD su Gitlab, sia per il versionamento del codice applicativo, sia per il versionamento delle configurazioni Helm (GitOps)."
+        },
+        "4": {
+            "company": "Xidera srl (GPI Group)",
+            "start": "Ago 2021",
+            "end": "attuale",
+            "role": "Chief Technology Officer",
+            "description": "Gestisco i team tecnici di xidera, dando il mio contributo nelle scelte strategiche aziendali che riguardano ambiti tecnici. L'obiettivo è ridurre il debito tecnico di xidera, governando internamente una transizione culturale verso l'adozione di Metodologie Agili e DevOps e una transizione tecnica con l'adozione del paradigma 12-factor per la realizzazione delle applicazioni, ristrutturando il codice legacy e introducendo strumenti e tecnologie che favoriscono la realizzazione di applicazioni cloud-native."
+        }
+    },
+    "education": {
+        "0": {
+            "school": "ITIS E. Mattei - San Donato Milanese",
+            "start": "Set 1999",
+            "end": "Lug 2004",
+            "award": "Diploma di Perito Informatico",
+            "grade": "95/100"
+        },
+        "1": {
+            "school": "Università degli Studi di Milano",
+            "start": "Ott 2004",
+            "end": "Feb 2008",
+            "award": "Laurea Triennale in Comunicazione Digitale",
+            "grade": "95/110"
+        }
+    },
+    "courses": {
+        "0": {
+            "name": "CKAD - Certified Kubernetes Application Developer",
+            "organization": "The Linux Foundation"
+        },
+        "1": {
+            "name": "AWS Solution Architect Associate Certification",
+            "organization": "Amazon Web Services"
+        },
+        "2": {
+            "name": "AWS Cloud Practitioner Certification",
+            "organization": "Amazon Web Services"
+        },
+        "3": {
+            "name": "ITIL® 4 Foundation Certification",
+            "organization": "Axelos – Certified by PeopleCert"
+        },
+        "4": {
+            "name": "Microsoft DEV330x Creating Scalable, Robust, Interactive Code with Python",
+            "organization": "Microsoft"
+        },
+        "5": {
+            "name": "Amazon ECS & Fargate Master Class - Docker on AWS",
+            "organization": "Udemy"
+        },
+        "6": {
+            "name": "Apache Kafka Series",
+            "organization": "Udemy"
+        },
+        "7": {
+            "name": "Robot Framework Test Automation",
+            "organization": "Udemy"
+        },
+        "8": {
+            "name": "AWS CloudFormation Master Class",
+            "organization": "Udemy"
+        },
+        "9": {
+            "name": "Front-End Web Development with React",
+            "organization": "The Hong Kong University of Science and Technology"
+        },
+        "10": {
+            "name": "DMx102: Introduction to Arduino Programming",
+            "organization": "Institut Mines-Télécom"
+        }
+    },
+    "skills": {
+        "observability": {
+            "description": "Monitoraggio & Osservabilità",
+            "tools": {
+                "0": {
+                    "name": "AWS CloudWatch",
+                    "iconify_id": "logos:aws-cloudwatch"
+                },
+                "1": {
+                    "name": "Elasticsearch",
+                    "iconify_id": "simple-icons:elasticsearch"                    
+                },
+                "2": {
+                    "name": "Logstash",
+                    "iconify_id": "cib:logstash"                    
+                },
+                "3": {
+                    "name": "Kibana",
+                    "iconify_id": "cib:kibana"                    
+                }
+            }
+        },
+        "devops": {
+            "description": "DevOps & CI/CD",
+            "tools": {
+                "0": {
+                    "name": "Git",
+                    "iconify_id": "cib:git"
+                },
+                "1": {
+                    "name": "Bitbucket",
+                    "iconify_id": "cib:bitbucket"                    
+                },
+                "2": {
+                    "name": "GitLab",
+                    "iconify_id": "cib:gitlab"                    
+                },
+                "3": {
+                    "name": "Travis CI",
+                    "iconify_id": "cib:travisci"                    
+                },
+                "4": {
+                    "name": "Ansible",
+                    "iconify_id": "cib:ansible"                    
+                },
+                "5": {
+                    "name": "Helm",
+                    "iconify_id": "cib:helm"                    
+                },
+                "6": {
+                    "name": "Github",
+                    "iconify_id": "ant-design:github-filled"                    
+                },
+                "7": {
+                    "name": "Jenkins",
+                    "iconify_id": "cib:jenkins"                    
+                },
+                "8": {
+                    "name": "Terraform",
+                    "iconify_id": "cib:terraform"                    
+                },
+                "9": {
+                    "name": "AWS CloudFormation",
+                    "iconify_id": "logos:aws-cloudformation"                    
+                }
+            }
+        },
+        "cloud": {
+            "description": "Cloud Providers",
+            "tools": {
+                "0": {
+                    "name": "AWS",
+                    "iconify_id": "cib:amazon-aws"
+                },
+                "1": {
+                    "name": "Heroku",
+                    "iconify_id": "cib:heroku"
+                }
+            }
+        },
+        "languages": {
+            "description": "Linguaggi di programmazione",
+            "tools": {
+                "0": {
+                    "name": "Python",
+                    "iconify_id": "carbon:logo-python"
+                },
+                "1": {
+                    "name": "Perl",
+                    "iconify_id": "simple-icons:perl"
+                },
+                "2": {
+                    "name": "Bash",
+                    "iconify_id": "mdi:bash"
+                },
+                "3": {
+                    "name": "PHP5",
+                    "iconify_id": "cib:php"
+                },
+                "4": {
+                    "name": "HTML5",
+                    "iconify_id": "ant-design:html5-filled"
+                },
+                "5": {
+                    "name": "CSS3",
+                    "iconify_id": "bx:bxl-css3"
+                },
+                "6": {
+                    "name": "Javascript",
+                    "iconify_id": "bx:bxl-javascript"
+                }
+            }
+        },
+        "frameworks": {
+            "description": "Frameworks, Appservers, Webservers",
+            "tools": {
+                "0": {
+                    "name": "Flask",
+                    "iconify_id": "cib:flask"
+                },
+                "1": {
+                    "name": "Dancer2",
+                    "iconify_id": "clarity:application-line"
+                },
+                "2": {
+                    "name": "Gunicorn",
+                    "iconify_id": "logos:gunicorn"
+                },
+                "3": {
+                    "name": "Plack",
+                    "iconify_id": "ant-design:cloud-server-outlined"
+                },
+                "4": {
+                    "name": "Bootstrap",
+                    "iconify_id": "bi:bootstrap"
+                },
+                "5": {
+                    "name": "Nginx",
+                    "iconify_id": "cib:nginx"
+                },
+                "6": {
+                    "name": "Apache",
+                    "iconify_id": "cib:apache"
+                },
+                "7": {
+                    "name": "React.js",
+                    "iconify_id": "bx:bxl-react"
+                },
+                "8": {
+                    "name": "Vue.js",
+                    "iconify_id": "cib:vue-js"
+                },
+                "9": {
+                    "name": "Apache::ASP",
+                    "iconify_id": "entypo:code"
+                }
+            }
+        },
+        "containers": {
+            "description": "Containers, Orchestratori, Virtualizzazione",
+            "tools": {
+                "0": {
+                    "name": "Docker",
+                    "iconify_id": "cib:docker"
+                },
+                "1": {
+                    "name": "Compose",
+                    "iconify_id": "cib:docker"
+                },
+                "2": {
+                    "name": "Swarm (hands on)",
+                    "iconify_id": "cib:docker"
+                },
+                "3": {
+                    "name": "Kubernetes",
+                    "iconify_id": "cib:kubernetes"
+                },
+                "4": {
+                    "name": "chroot jails",
+                    "iconify_id": "cib:linux"
+                },
+                "5": {
+                    "name": "VMWare",
+                    "iconify_id": "carbon:logo-vmware"
+                },
+                "6": {
+                    "name": "Virtualbox",
+                    "iconify_id": "carbon:virtual-machine"
+                }
+            }
+        },
+        "dbms": {
+            "description": "DBMS & DBCaches",
+            "tools": {
+                "0": {
+                    "name": "PostgreSQL",
+                    "iconify_id": "cib:postgresql"
+                },
+                "1": {
+                    "name": "MySQL",
+                    "iconify_id": "cib:mysql"
+                },
+                "2": {
+                    "name": "Oracle",
+                    "iconify_id": "cib:oracle"
+                },
+                "3": {
+                    "name": "MongoDB",
+                    "iconify_id": "cib:mongodb"
+                },
+                "4": {
+                    "name": "Redis",
+                    "iconify_id": "cib:redis"
+                }
+            }
+        },
+        "testing": {
+            "description": "Unit, Integration & Load Tests",
+            "tools": {
+                "0": {
+                    "name": "pytest",
+                    "iconify_id": "clarity-ci-cd-line"
+                },
+                "1": {
+                    "name": "Plack::Test",
+                    "iconify_id": "clarity-ci-cd-line"
+                },
+                "2": {
+                    "name": "locust.io",
+                    "iconify_id": "whh-loadingseven"
+                },
+                "3": {
+                    "name": "RobotFramework",
+                    "iconify_id": "clarity-ci-cd-line"
+                },
+                "4": {
+                    "name": "Selenium Webdriver",
+                    "iconify_id": "simple-icons:selenium"
+                }
+            }
+        },
+        "systems": {
+            "description": "Sistemi Operativi",
+            "tools": {
+                "0": {
+                    "name": "Linux (Admin)",
+                    "iconify_id": "cib:linux"
+                },
+                "1": {
+                    "name": "Windows (superuser)",
+                    "iconify_id": "cib:windows"
+                }
+            }
+        },
+        "brokers": {
+            "description": "Message brokers",
+            "tools": {
+                "0": {
+                    "name": "Kafka",
+                    "iconify_id": "logos:kafka"
+                }                
+            }
+        },
+        "project_mgmt": {
+            "description": "Project Managing e Processi",
+            "tools": {
+                "0": {
+                    "name": "Jira",
+                    "iconify_id": "cib:jira"
+                },
+                "1": {
+                    "name": "Confluence",
+                    "iconify_id": "cib:confluence"
+                },
+                "2": {
+                    "name": "Trello",
+                    "iconify_id": "cib:trello"
+                },
+                "3": {
+                    "name": "ITIL",
+                    "iconify_id": "codicon:checklist"
+                }
+            }
+        }
+
+    },
+    "other_skills": {
+        "0": "Pluriennale esperienza in sviluppo integrazioni con CRM e gestionali utilizzando i seguenti protocolli: HTTP, REST, SOAP, HL7, TMF Standard (Telco)",
+        "1": "Integrazioni hardware su protocolli Serial TTY COM, USB COM",
+        "2": "Notifiche push e comunicazioni real time via web: HTTP Comet long polling, Websockets, HTTP server sent events",
+        "3": "Introduzione metodologia Agile in azienda (scrum, kanban) con Jira & Atlassian Suite",
+        "4": "Team leader di 4-5 persone",
+        "5": "Slack, Telegram Chatbot per notifiche automatiche monitoraggio",
+        "6": "Mentoring ai colleghi junior",
+        "7": "Analisi funzionali, analisi tecniche, stime tempistiche di progetto",
+        "8": "Gestione rapporti con stakeholders, sia tecnici sia operativi",
+        "9": "Abitudine a comunicare con il cliente",
+        "10": "Abitudine a lavorare per obiettivi"
+    },
+    "blog": {
+        "0": {
+            "platform": "Gli Stati Generali",
+            "name": "Dietro le quinte della Digital Transformation",
+            "link": "https://www.glistatigenerali.com/app-software_internet-tech/dietro-le-quinte-della-digital-transformation/"
+        },
+        "1": {
+            "platform": "Medium",
+            "name": "Come fare code refactoring di un callback hell con async/await",
+            "link": "https://medium.com/@matteo.deponti/come-fare-code-refactoring-di-un-callback-hell-con-async-await-26b8bc2b0dee"
+        }
+    }
+}
