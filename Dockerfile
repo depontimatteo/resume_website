@@ -1,17 +1,17 @@
-FROM python:3.7-slim
+# Extend from the official Elixir image.
+FROM elixir:latest
 
-RUN apt-get update
-RUN apt-get install dos2unix
-RUN apt-get install -y nginx
+# Create app directory and copy the Elixir projects into it.
+RUN mkdir /app
+COPY . /app
+WORKDIR /app
 
-COPY requirements.txt /
-COPY conf/nginx.conf /etc/nginx
-RUN pip3 install -r /requirements.txt
+# Install Hex package manager.
+# By using `--force`, we don’t need to type “Y” to confirm the installation.
+RUN mix local.hex --force && \
+    mix local.rebar --force
 
-COPY . /flask
-WORKDIR /flask
+# Compile the project.
+RUN mix do compile
 
-RUN dos2unix ./bin/docker_gunicorn_start.sh
-RUN chmod +x ./bin/docker_gunicorn_start.sh
-
-ENTRYPOINT ["./bin/docker_gunicorn_start.sh"]
+CMD ["/app/entrypoint.sh"]
