@@ -8,11 +8,11 @@
 import Config
 
 # Configures the endpoint
-config :resume_website_2022, ResumeWebsite2022Web.Endpoint,
+config :resume_website, ResumeWebsiteWeb.Endpoint,
   url: [host: "localhost"],
-  render_errors: [view: ResumeWebsite2022Web.ErrorView, accepts: ~w(html json), layout: false],
-  pubsub_server: ResumeWebsite2022.PubSub,
-  live_view: [signing_salt: "6GNBqVHq"]
+  render_errors: [view: ResumeWebsiteWeb.ErrorView, accepts: ~w(html json), layout: false],
+  pubsub_server: ResumeWebsite.PubSub,
+  live_view: [signing_salt: "ghergOX0"]
 
 # Configures the mailer
 #
@@ -21,7 +21,7 @@ config :resume_website_2022, ResumeWebsite2022Web.Endpoint,
 #
 # For production it's recommended to configure a different adapter
 # at the `config/runtime.exs`.
-config :resume_website_2022, ResumeWebsite2022.Mailer, adapter: Swoosh.Adapters.Local
+config :resume_website, ResumeWebsite.Mailer, adapter: Swoosh.Adapters.Local
 
 # Swoosh API client is needed for adapters other than SMTP.
 config :swoosh, :api_client, false

@@ -1,13 +1,13 @@
-defmodule ResumeWebsite2022Web.Endpoint do
-  use Phoenix.Endpoint, otp_app: :resume_website_2022
+defmodule ResumeWebsiteWeb.Endpoint do
+  use Phoenix.Endpoint, otp_app: :resume_website
 
   # The session will be stored in the cookie and signed,
   # this means its contents can be read but not tampered with.
   # Set :encryption_salt if you would also like to encrypt it.
   @session_options [
     store: :cookie,
-    key: "_resume_website_2022_key",
-    signing_salt: "rLSC+Cj8"
+    key: "_resume_website_key",
+    signing_salt: "AtJrqQi7"
   ]
 
   socket "/live", Phoenix.LiveView.Socket, websocket: [connect_info: [session: @session_options]]
@@ -18,7 +18,7 @@ defmodule ResumeWebsite2022Web.Endpoint do
   # when deploying your static files in production.
   plug Plug.Static,
     at: "/",
-    from: :resume_website_2022,
+    from: :resume_website,
     gzip: false,
     only: ~w(assets fonts images favicon.ico robots.txt)
 
@@ -45,5 +45,5 @@ defmodule ResumeWebsite2022Web.Endpoint do
   plug Plug.MethodOverride
   plug Plug.Head
   plug Plug.Session, @session_options
-  plug ResumeWebsite2022Web.Router
+  plug ResumeWebsiteWeb.Router
 end

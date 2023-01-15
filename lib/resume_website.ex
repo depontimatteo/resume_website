@@ -1,6 +1,6 @@
-defmodule ResumeWebsite2022 do
+defmodule ResumeWebsite do
   @moduledoc """
-  ResumeWebsite2022 keeps the contexts that define your domain
+  ResumeWebsite keeps the contexts that define your domain
   and business logic.
 
   Contexts are also responsible for managing your data, regardless

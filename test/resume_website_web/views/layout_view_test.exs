@@ -1,5 +1,5 @@
-defmodule ResumeWebsite2022Web.LayoutViewTest do
-  use ResumeWebsite2022Web.ConnCase, async: true
+defmodule ResumeWebsiteWeb.LayoutViewTest do
+  use ResumeWebsiteWeb.ConnCase, async: true
 
   # When testing helpers, you may want to import Phoenix.HTML and
   # use functions such as safe_to_string() to convert the helper

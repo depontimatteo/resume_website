@@ -1,4 +1,4 @@
-defmodule ResumeWebsite2022.Application do
+defmodule ResumeWebsite.Application do
   # See https://hexdocs.pm/elixir/Application.html
   # for more information on OTP Applications
   @moduledoc false
@@ -9,18 +9,18 @@ defmodule ResumeWebsite2022.Application do
   def start(_type, _args) do
     children = [
       # Start the Telemetry supervisor
-      ResumeWebsite2022Web.Telemetry,
+      ResumeWebsiteWeb.Telemetry,
       # Start the PubSub system
-      {Phoenix.PubSub, name: ResumeWebsite2022.PubSub},
+      {Phoenix.PubSub, name: ResumeWebsite.PubSub},
       # Start the Endpoint (http/https)
-      ResumeWebsite2022Web.Endpoint
-      # Start a worker by calling: ResumeWebsite2022.Worker.start_link(arg)
-      # {ResumeWebsite2022.Worker, arg}
+      ResumeWebsiteWeb.Endpoint
+      # Start a worker by calling: ResumeWebsite.Worker.start_link(arg)
+      # {ResumeWebsite.Worker, arg}
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html
     # for other strategies and supported options
-    opts = [strategy: :one_for_one, name: ResumeWebsite2022.Supervisor]
+    opts = [strategy: :one_for_one, name: ResumeWebsite.Supervisor]
     Supervisor.start_link(children, opts)
   end
 
@@ -28,7 +28,7 @@ defmodule ResumeWebsite2022.Application do
   # whenever the application is updated.
   @impl true
   def config_change(changed, _new, removed) do
-    ResumeWebsite2022Web.Endpoint.config_change(changed, removed)
+    ResumeWebsiteWeb.Endpoint.config_change(changed, removed)
     :ok
   end
 end

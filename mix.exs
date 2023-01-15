@@ -1,9 +1,9 @@
-defmodule ResumeWebsite2022.MixProject do
+defmodule ResumeWebsite.MixProject do
   use Mix.Project
 
   def project do
     [
-      app: :resume_website_2022,
+      app: :resume_website,
       version: "0.1.0",
       elixir: "~> 1.12",
       elixirc_paths: elixirc_paths(Mix.env()),
@@ -19,7 +19,7 @@ defmodule ResumeWebsite2022.MixProject do
   # Type `mix help compile.app` for more information.
   def application do
     [
-      mod: {ResumeWebsite2022.Application, []},
+      mod: {ResumeWebsite.Application, []},
       extra_applications: [:logger, :runtime_tools]
     ]
   end
@@ -45,7 +45,8 @@ defmodule ResumeWebsite2022.MixProject do
       {:telemetry_poller, "~> 1.0"},
       {:gettext, "~> 0.18"},
       {:jason, "~> 1.2"},
-      {:plug_cowboy, "~> 2.5"}
+      {:plug_cowboy, "~> 2.5"},
+      {:yaml_elixir, "~> 2.8"}
     ]
   end
 

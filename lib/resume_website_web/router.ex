@@ -1,11 +1,11 @@
-defmodule ResumeWebsite2022Web.Router do
-  use ResumeWebsite2022Web, :router
+defmodule ResumeWebsiteWeb.Router do
+  use ResumeWebsiteWeb, :router
 
   pipeline :browser do
     plug :accepts, ["html"]
     plug :fetch_session
     plug :fetch_live_flash
-    plug :put_root_layout, {ResumeWebsite2022Web.LayoutView, :root}
+    plug :put_root_layout, {ResumeWebsiteWeb.LayoutView, :root}
     plug :protect_from_forgery
     plug :put_secure_browser_headers
   end
@@ -14,14 +14,15 @@ defmodule ResumeWebsite2022Web.Router do
     plug :accepts, ["json"]
   end
 
-  scope "/", ResumeWebsite2022Web do
+  scope "/", ResumeWebsiteWeb do
     pipe_through :browser
 
     get "/", PageController, :index
+    get "/get_bio/:language_id", ApiController, :get_bio
   end
 
   # Other scopes may use custom stacks.
-  # scope "/api", ResumeWebsite2022Web do
+  # scope "/api", ResumeWebsiteWeb do
   #   pipe_through :api
   # end
 
@@ -38,7 +39,7 @@ defmodule ResumeWebsite2022Web.Router do
     scope "/" do
       pipe_through :browser
 
-      live_dashboard "/dashboard", metrics: ResumeWebsite2022Web.Telemetry
+      live_dashboard "/dashboard", metrics: ResumeWebsiteWeb.Telemetry
     end
   end
 

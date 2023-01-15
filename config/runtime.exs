@@ -12,12 +12,12 @@ import Config
 # If you use `mix release`, you need to explicitly enable the server
 # by passing the PHX_SERVER=true when you start it:
 #
-#     PHX_SERVER=true bin/resume_website_2022 start
+#     PHX_SERVER=true bin/resume_website start
 #
 # Alternatively, you can use `mix phx.gen.release` to generate a `bin/server`
 # script that automatically sets the env var above.
 if System.get_env("PHX_SERVER") do
-  config :resume_website_2022, ResumeWebsite2022Web.Endpoint, server: true
+  config :resume_website, ResumeWebsiteWeb.Endpoint, server: true
 end
 
 if config_env() == :prod do
@@ -36,7 +36,7 @@ if config_env() == :prod do
   host = System.get_env("PHX_HOST") || "example.com"
   port = String.to_integer(System.get_env("PORT") || "4000")
 
-  config :resume_website_2022, ResumeWebsite2022Web.Endpoint,
+  config :resume_website, ResumeWebsiteWeb.Endpoint,
     url: [host: host, port: 443, scheme: "https"],
     http: [
       # Enable IPv6 and bind on all interfaces.
@@ -54,7 +54,7 @@ if config_env() == :prod do
   # Also, you may need to configure the Swoosh API client of your choice if you
   # are not using SMTP. Here is an example of the configuration:
   #
-  #     config :resume_website_2022, ResumeWebsite2022.Mailer,
+  #     config :resume_website, ResumeWebsite.Mailer,
   #       adapter: Swoosh.Adapters.Mailgun,
   #       api_key: System.get_env("MAILGUN_API_KEY"),
   #       domain: System.get_env("MAILGUN_DOMAIN")

@@ -1,5 +1,5 @@
-defmodule ResumeWebsite2022Web.ErrorView do
-  use ResumeWebsite2022Web, :view
+defmodule ResumeWebsiteWeb.ErrorView do
+  use ResumeWebsiteWeb, :view
 
   # If you want to customize a particular status code
   # for a certain format, you may uncomment below.

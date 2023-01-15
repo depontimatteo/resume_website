@@ -1,4 +1,4 @@
-# ResumeWebsite2022
+# ResumeWebsite
 
 To start your Phoenix server:
 

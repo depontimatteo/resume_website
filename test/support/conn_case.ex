@@ -1,4 +1,4 @@
-defmodule ResumeWebsite2022Web.ConnCase do
+defmodule ResumeWebsiteWeb.ConnCase do
   @moduledoc """
   This module defines the test case to be used by
   tests that require setting up a connection.
@@ -11,7 +11,7 @@ defmodule ResumeWebsite2022Web.ConnCase do
   we enable the SQL sandbox, so changes done to the database
   are reverted at the end of every test. If you are using
   PostgreSQL, you can even run database tests asynchronously
-  by setting `use ResumeWebsite2022Web.ConnCase, async: true`, although
+  by setting `use ResumeWebsiteWeb.ConnCase, async: true`, although
   this option is not recommended for other databases.
   """
 
@@ -22,12 +22,12 @@ defmodule ResumeWebsite2022Web.ConnCase do
       # Import conveniences for testing with connections
       import Plug.Conn
       import Phoenix.ConnTest
-      import ResumeWebsite2022Web.ConnCase
+      import ResumeWebsiteWeb.ConnCase
 
-      alias ResumeWebsite2022Web.Router.Helpers, as: Routes
+      alias ResumeWebsiteWeb.Router.Helpers, as: Routes
 
       # The default endpoint for testing
-      @endpoint ResumeWebsite2022Web.Endpoint
+      @endpoint ResumeWebsiteWeb.Endpoint
     end
   end
 

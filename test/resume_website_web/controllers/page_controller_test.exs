@@ -1,5 +1,5 @@
-defmodule ResumeWebsite2022Web.PageControllerTest do
-  use ResumeWebsite2022Web.ConnCase
+defmodule ResumeWebsiteWeb.PageControllerTest do
+  use ResumeWebsiteWeb.ConnCase
 
   test "GET /", %{conn: conn} do
     conn = get(conn, "/")
