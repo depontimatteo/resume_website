@@ -47,9 +47,16 @@
         "4": {
             "company": "Xidera srl (GPI Group)",
             "start": "Ago 2021",
-            "end": "attuale",
+            "end": "Feb 2022",
             "role": "Chief Technology Officer",
-            "description": "Gestisco i team tecnici di xidera, dando il mio contributo nelle scelte strategiche aziendali che riguardano ambiti tecnici. L'obiettivo è ridurre il debito tecnico di xidera, governando internamente una transizione culturale verso l'adozione di Metodologie Agili e DevOps e una transizione tecnica con l'adozione del paradigma 12-factor per la realizzazione delle applicazioni, ristrutturando il codice legacy e introducendo strumenti e tecnologie che favoriscono la realizzazione di applicazioni cloud-native."
+            "description": "Ho gestito i team tecnici di xidera, dando il mio contributo nelle scelte strategiche aziendali che riguardano ambiti tecnici. L'obiettivo era ridurre il debito tecnico di xidera, governando internamente una transizione culturale verso l'adozione di Metodologie Agili e DevOps e una transizione tecnica con l'adozione del paradigma 12-factor per la realizzazione delle applicazioni, ristrutturando il codice legacy e introducendo strumenti e tecnologie che favoriscono la realizzazione di applicazioni cloud-native."
+        },
+        "5": {
+            "company": "Prima Assicurazioni",
+            "start": "Mar 2022",
+            "end": "attuale",
+            "role": "Site Reliability Engineer",
+            "description": "Faccio parte del Platform Operations Team di Prima Assicurazioni, contribuendo a gestire l'intera infrastruttura su cui si basano i carichi di lavoro di Prima Assicurazioni. Realizzo platform tools utili a migliorare l'esperienza degli sviluppatori. Sono titolare di un'iniziativa incentrata sulla condivisione dei principi e delle metodologie DevOps all'interno dell'azienda. Responsabilità principali: Cloud computing e gestione dell'infrastruttura, DB Management, CI/CD, Infrastructure-as-Code, Observability, Caching, Automation. Stack tecnologico: AWS, K8S, Helm, Docker, Pulumi, Terraform, Cloudformation, Cloudflare, Datadog, ELK Stack, Harness Drone CI, GitHub & GitHub Actions"
         }
     },
     "education": {

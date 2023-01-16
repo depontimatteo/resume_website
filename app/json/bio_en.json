@@ -47,9 +47,16 @@
         "4": {
             "company": "Xidera srl (GPI Group)",
             "start": "Ago 2021",
-            "end": "current",
+            "end": "Feb 2022",
             "role": "Chief Technology Officer",
             "description": "I manage the technical teams of xidera, giving my contribution in the company's strategic decisions regarding technical areas. The goal is reduce the technical debt of xidera, internally governing a cultural transition towards the adoption of Agile and DevOps Methodologies and a technical transition with the adoption of the 12-factor paradigm for the development of applications, restructuring the legacy code and introducing tools and technologies that they favor the creation of cloud-native applications"
+        },
+        "5": {
+            "company": "Prima Assicurazioni",
+            "start": "Mar 2022",
+            "end": "attuale",
+            "role": "Site Reliability Engineer",
+            "description": "Being part of Prima Assicurazioni Platform Operations Team, contributing to manage the whole infrastructure where Prima Assicurazioni workloads are based on, mostly focusing on build platform tools useful for increase developers' experience. Also being owner of an initiative focused on share devops principles and methodologies through the company. Main topics: Cloud computing and infrastructure management, DB Management, CI/CD, Infrastructure-as-Code, Observability, Caching, Automation. Tech stack: AWS, K8S, Helm, Docker, Pulumi, Terraform, Cloudformation, Cloudflare, Datadog, ELK Stack, Harness Drone CI, GitHub & GitHub Actions"
         }
     },
     "education": {
