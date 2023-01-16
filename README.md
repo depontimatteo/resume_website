@@ -4,7 +4,7 @@ Developing a web application in Python with Flask Framework, templating with Boo
 
 ## Continuous Integration with Travis CI and Continuous Delivery with Heroku
 
-![docker image](https://github.com/github/docs/actions/workflows/docker-image.yml/badge.svg)
+![docker image](https://github.com/github/docs/actions/workflows/docker-image.yml/badge.svg?event=push)
 
 
 ### Project intro
