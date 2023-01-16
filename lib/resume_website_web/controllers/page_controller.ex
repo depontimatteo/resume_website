@@ -4,8 +4,7 @@ defmodule ResumeWebsiteWeb.PageController do
 
   def index(conn, _params) do
 
-    bio = ApiController.get_bio(conn, %{"language_id"=>"it"})
+    render(conn, "index.html", bio: ApiController.get_bio(conn, %{"language_id"=>"it"}))
 
-    render(conn, "index.html")
   end
 end
