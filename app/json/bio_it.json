@@ -140,11 +140,15 @@
                 "3": {
                     "name": "Kibana",
                     "iconify_id": "cib:kibana"                    
+                },
+                "4": {
+                    "name": "Datadog",
+                    "iconify_id": "simple-icons:datadog"                    
                 }
             }
         },
         "devops": {
-            "description": "DevOps & CI/CD",
+            "description": "CI/CD, Infrastructure-as-Code",
             "tools": {
                 "0": {
                     "name": "Git",
@@ -185,6 +189,10 @@
                 "9": {
                     "name": "AWS CloudFormation",
                     "iconify_id": "logos:aws-cloudformation"                    
+                },
+                "10": {
+                    "name": "Pulumi",
+                    "iconify_id": "simple-icons:pulumi"                    
                 }
             }
         },
@@ -194,10 +202,6 @@
                 "0": {
                     "name": "AWS",
                     "iconify_id": "cib:amazon-aws"
-                },
-                "1": {
-                    "name": "Heroku",
-                    "iconify_id": "cib:heroku"
                 }
             }
         },
@@ -264,18 +268,6 @@
                 "6": {
                     "name": "Apache",
                     "iconify_id": "cib:apache"
-                },
-                "7": {
-                    "name": "React.js",
-                    "iconify_id": "bx:bxl-react"
-                },
-                "8": {
-                    "name": "Vue.js",
-                    "iconify_id": "cib:vue-js"
-                },
-                "9": {
-                    "name": "Apache::ASP",
-                    "iconify_id": "entypo:code"
                 }
             }
         },
@@ -291,24 +283,12 @@
                     "iconify_id": "cib:docker"
                 },
                 "2": {
-                    "name": "Swarm (hands on)",
-                    "iconify_id": "cib:docker"
-                },
-                "3": {
                     "name": "Kubernetes",
                     "iconify_id": "cib:kubernetes"
                 },
-                "4": {
+                "3": {
                     "name": "chroot jails",
                     "iconify_id": "cib:linux"
-                },
-                "5": {
-                    "name": "VMWare",
-                    "iconify_id": "carbon:logo-vmware"
-                },
-                "6": {
-                    "name": "Virtualbox",
-                    "iconify_id": "carbon:virtual-machine"
                 }
             }
         },
@@ -381,7 +361,7 @@
                 "0": {
                     "name": "Kafka",
                     "iconify_id": "logos:kafka"
-                }                
+                }
             }
         },
         "project_mgmt": {
@@ -396,10 +376,6 @@
                     "iconify_id": "cib:confluence"
                 },
                 "2": {
-                    "name": "Trello",
-                    "iconify_id": "cib:trello"
-                },
-                "3": {
                     "name": "ITIL",
                     "iconify_id": "codicon:checklist"
                 }
