@@ -36,25 +36,25 @@ app.register_blueprint(html_v1_blueprint)
 
 
 @app.errorhandler(400)
-def error_handler(error):
+def error_handler_400(error):
     return render_template("error_handler.html", code=400), 400
 
 
 @app.errorhandler(403)
-def error_handler(error):
+def error_handler_403(error):
     return render_template("error_handler.html", code=403), 403
 
 
 @app.errorhandler(404)
-def error_handler(error):
+def error_handler_404(error):
     return render_template("error_handler.html", code=404), 404
 
 
 @app.errorhandler(500)
-def error_handler(error):
+def error_handler_500(error):
     return render_template("error_handler.html", code=500), 500
 
 
 @app.errorhandler(503)
-def error_handler(error):
+def error_handler_503(error):
     return render_template("error_handler.html", code=503), 503
