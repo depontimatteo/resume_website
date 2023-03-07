@@ -13,8 +13,9 @@ This website is a Proof of Concept of a project developed following DevOps philo
 The Backend programming language is Python, frontend programming languages are HTML5, CSS3, Javascript.  
 The MVC Web Framework used is Flask, configured to be served by a Gunicorn Application Server, behind a webserver Nginx in a reverse-proxy mode.The grid-system is Bootstrap.  
 As containerization system I chose Docker (with docker-compose as a non-distributed orchestrator in development environment).  
-Unit tests are made with pytest and Selenium Webdriver to auto-simulate user interactions with the browser. I use Git as Version Control System and a remote Github repository, deeply integrated with Travis CI, in order to enable automatic tests in Continuous Integration mode and automatic releases to Heroku in Continuous Delivery mode.  
-As Heroku doesn't provide an HTTPS endpoint, in order to use SSL, prevent DDoS attacks and increase performances, the website is in a CDN with CloudFlare.
+Unit tests are made with pytest and Selenium Webdriver to auto-simulate user interactions with the browser. I use Git as Version Control System and a remote Github repository, deeply integrated with GitHub Actions, in order to enable automatic tests in Continuous Integration mode.
+This website is deployed via Helm onto a Kubernetes (K3S) Cluster available on Oracle Cloud.
+In order to prevent DDoS attacks and increase performances, the website is in a CDN with CloudFlare.
 Production deployed app is available here: https://www.maculade.com  
 
 ### Docker
