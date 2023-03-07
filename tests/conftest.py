@@ -1,11 +1,16 @@
-import pytest
-import sys
 import logging
+import sys
+
+import pytest
 from selenium import webdriver
-sys.path.append('../app')
+
 from app import app as flask_app
 
+sys.path.append("../app")
+
+
 driver = None
+
 
 @pytest.fixture
 def app():
@@ -18,25 +23,28 @@ def client(app):
 
 
 def pytest_addoption(parser):
-    parser.addoption(
-        "--browser_name", action="store", default="chrome"
-    )
+    parser.addoption("--browser_name", action="store", default="chrome")
+
 
 @pytest.fixture(scope="class")
 def browser(request):
     global driver
-    browser_name=request.config.getoption("browser_name")
+    browser_name = request.config.getoption("browser_name")
     if browser_name == "chrome":
-        if sys.platform == 'win32':
-            driver = webdriver.Chrome(executable_path="selenium_drivers/chromedriver.exe")
-        elif sys.platform == 'linux':
+        if sys.platform == "win32":
+            driver = webdriver.Chrome(
+                executable_path="selenium_drivers/chromedriver.exe"
+            )
+        elif sys.platform == "linux":
             driver = webdriver.Chrome(executable_path="selenium_drivers/chromedriver")
         else:
             logging.info("chrome driver not found for this platform")
     elif browser_name == "firefox":
-        if sys.platform == 'win32':
-            driver = webdriver.Firefox(executable_path="selenium_drivers/geckodriver.exe")
-        elif sys.platform == 'linux':
+        if sys.platform == "win32":
+            driver = webdriver.Firefox(
+                executable_path="selenium_drivers/geckodriver.exe"
+            )
+        elif sys.platform == "linux":
             driver = webdriver.Firefox(executable_path="selenium_drivers/geckodriver")
         else:
             logging.info("firefox driver not found for this platform")
