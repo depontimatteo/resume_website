@@ -14,7 +14,9 @@
     "city_area": "Milan",
     "country": "Italy",
     "phone": "(+39) 351.91.80.120",
-    "bio": "I am a software architect and developer, my core business is about web applications, APIs and bash scripting on OS Linux, also using orchestrators like Kubernetes. I architect and manage Cloud infrastructures on AWS. I’m applying DevOps for automating software test, deploy and release. I use Python, Perl, HTML5, CSS3, Javascript and Bash with Apache2 or Nginx webservers, Gunicorn and Plack appservers, Flask and Dancer2 MVC Web Frameworks, PostgreSQL, MongoDB or mySQL DBMS. I have expertise on hardware and embedded solutions, mainly Raspberry Pi and Arduino.. I follow ITIL4 best practices and Agile Methodologies. After several years as an engineer, I’m currently managing a team.",
+    "bio": "I am a Cloud SRE Engineer, my core business is about cloud-native infrastructures. I’m an expert Linux OS engineer, with good knowledge of containerization techniques and orchestration tools like Kubernetes. Currently I'm architecting, deploying and managing cloud-native applications and high availability infrastructures on AWS. I'm a former software developer and I have a lot of expertise with web applications, APIs, systems integrations, OS managing and bash scripting on OS Linux. I follow and promote DevOps philosophy and I have expertise with tools like Git, Github, Gitlab, Bitbucket, Drone, Ansible, Terraform, CloudFormation, Helm, Pulumi. I ran several initiative useful to promote DevOps philosophy and SRE into companies I've worked with. I follow ITIL 4 best practices and Agile Methodologies (Scrum, Kanban). I'm a Certified Kubernetes Application Developer, AWS Solution Architect Associate Certified and ITIL 4 Foundation Certified. I have experience in managing people.",
+    "udemy": "I'm the owner of the Udemy course 'Introduzione a Cloud & DevOps per la Digital Transformation'.",
+    "poc": "Technologies used for building this website: Kubernetes (K3S) with Helm on Oracle Cloud for the infrastructure tier, GitHub Actions for the CI, Docker & docker-compose for the containerization tier in dev environment, Gunicorn, Flask, Python, HTML, CSS and JavaScript for the application tier.",
     "experience": {
         "0": {
             "company": "Xidera srl",
@@ -398,11 +400,16 @@
     },
     "blog": {
         "0": {
+            "platform": "Udemy",
+            "name": "Introduzione a Cloud & DevOps per la Digital Transformation",
+            "link": "https://www.udemy.com/course/introduzione-a-cloud-devops-per-la-digital-transformation/"
+        },
+        "1": {
             "platform": "Gli Stati Generali",
             "name": "Dietro le quinte della Digital Transformation",
             "link": "https://www.glistatigenerali.com/app-software_internet-tech/dietro-le-quinte-della-digital-transformation/"
         },
-        "1": {
+        "2": {
             "platform": "Medium",
             "name": "Come fare code refactoring di un callback hell con async/await",
             "link": "https://medium.com/@matteo.deponti/come-fare-code-refactoring-di-un-callback-hell-con-async-await-26b8bc2b0dee"

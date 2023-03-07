@@ -1,9 +1,7 @@
 FROM python:3.10-slim
 
 RUN apt-get update \
-    && apt-get install -y   dos2unix \
-                            nginx \
-                            curl \
+    && apt-get install -y curl \
     && apt-get autoremove -y \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
@@ -14,13 +12,9 @@ ENV PATH="${PATH}:/root/.local/bin"
 RUN poetry config virtualenvs.create false
 
 COPY poetry.lock poetry.toml pyproject.toml /
-COPY conf/nginx.conf /etc/nginx
 RUN poetry install
 
 COPY . /flask
 WORKDIR /flask
 
-RUN dos2unix ./bin/docker_gunicorn_start.sh
-RUN chmod +x ./bin/docker_gunicorn_start.sh
-
-ENTRYPOINT ["./bin/docker_gunicorn_start.sh"]
+ENTRYPOINT ["./bin/entrypoint.sh"]

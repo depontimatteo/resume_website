@@ -14,7 +14,9 @@
     "city_area": "Milano",
     "country": "Italia",
     "phone": "(+39) 351.91.80.120",
-    "bio": "Mi occupo di architettare e sviluppare software (principalmente applicazioni web, API e bash scripting) e di gestire Sistemi Operativi in ambiente Linux, anche mediante orchestratori come Kubernetes. Architetto e gestisco infrastrutture in Cloud con AWS. Applico DevOps automatizzando la produzione, il testing e il rilascio di software. Programmo principalmente in Python, Perl, HTML5, Javascript e Bash, utilizzo webserver Apache2 e Nginx, appserver Gunicorn e Plack, web frameworks MVC Flask e Dancer2, DBMS PostgreSQL, MongoDB e mySQL. Sono esperto di hardware integrato, con esperienza su Raspberry Pi e Arduino. Sono abituato a realizzare i progetti IT in autonomia, secondo le linee guida ITIL® 4. Gestisco e coordino un team di sviluppatori.",
+    "bio": "Sono un Cloud SRE Engineer, mi occupo principalmente di architettare e gestire infrastrutture cloud-native. Sono esperto di sistemi operativi Linux, con una buona conoscenza delle tecniche di containerizzazione e degli strumenti di orchestrazione come Kubernetes. Attualmente mi occupo di architettare, distribuire e gestire applicazioni cloud-native e infrastrutture ad alta disponibilità su AWS. Sono stato sviluppatore di software e ho molta esperienza con applicazioni web, API, integrazioni di sistemi, gestione di sistemi operativi e scripting bash su sistemi operativi Linux. Seguo e promuovo la filosofia DevOps e ho esperienza con strumenti come Git, Github, Gitlab, Bitbucket, Drone, Ansible, Terraform, CloudFormation, Helm, Pulumi. Ho gestito diverse iniziative utili a diffondere la filosofia DevOps ed SRE nelle aziende con cui ho lavorato. Seguo le best practice ITIL 4 e le metodologie agili (Scrum, Kanban). Sono un Certified Kubernetes Application Developer, Certified AWS Solution Architect Associate e Certified ITIL 4 Foundation. Ho esperienza nella gestione delle persone.",
+    "udemy": "Sono il responsabile del corso Udemy 'Introduzione a Cloud & DevOps per la Digital Transformation'.",
+    "poc": "Tecnologie utilizzate per la realizzazione di questo sito web: Kubernetes (K3S) con Helm su Oracle Cloud per il tier infrastrutturale, GitHub Actions per la CI, Docker e docker-compose per il tier di containerizzazione in ambiente dev, Gunicorn, Flask, Python, HTML, CSS e JavaScript per il tier applicativo.",
     "experience": {
         "0": {
             "company": "Xidera srl",
@@ -398,11 +400,16 @@
     },
     "blog": {
         "0": {
+            "platform": "Udemy",
+            "name": "Introduzione a Cloud & DevOps per la Digital Transformation",
+            "link": "https://www.udemy.com/course/introduzione-a-cloud-devops-per-la-digital-transformation/"
+        },
+        "1": {
             "platform": "Gli Stati Generali",
             "name": "Dietro le quinte della Digital Transformation",
             "link": "https://www.glistatigenerali.com/app-software_internet-tech/dietro-le-quinte-della-digital-transformation/"
         },
-        "1": {
+        "2": {
             "platform": "Medium",
             "name": "Come fare code refactoring di un callback hell con async/await",
             "link": "https://medium.com/@matteo.deponti/come-fare-code-refactoring-di-un-callback-hell-con-async-await-26b8bc2b0dee"
