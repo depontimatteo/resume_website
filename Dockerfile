@@ -6,8 +6,7 @@ RUN apt-get update \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
-ARG POETRY_VERSION=1.3.2
-RUN curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/install-poetry.py | POETRY_VERSION=$POETRY_VERSION python -
+RUN curl -sSL https://install.python-poetry.org | python3 -
 ENV PATH="${PATH}:/root/.local/bin"
 RUN poetry config virtualenvs.create false
 
