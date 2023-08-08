@@ -2,10 +2,6 @@
 
 Developing a web application in Python with Flask Framework, templating with Bootstrap, serving with Gunicorn and Nginx and using Docker with Docker Compose as container solution for development.
 
-## Continuous Integration with Travis CI and Continuous Delivery with Heroku
-
-![docker image](https://github.com/github/docs/actions/workflows/docker-image.yml/badge.svg?event=push)
-
 
 ### Project intro
 
