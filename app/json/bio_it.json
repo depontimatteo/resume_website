@@ -56,9 +56,16 @@
         "5": {
             "company": "Prima Assicurazioni",
             "start": "Mar 2022",
-            "end": "attuale",
+            "end": "Set 2023",
             "role": "Site Reliability Engineer",
-            "description": "Faccio parte del Platform Operations Team di Prima Assicurazioni, contribuendo a gestire l'intera infrastruttura su cui si basano i carichi di lavoro di Prima Assicurazioni. Realizzo platform tools utili a migliorare l'esperienza degli sviluppatori. Sono titolare di un'iniziativa incentrata sulla condivisione dei principi e delle metodologie DevOps all'interno dell'azienda. Responsabilità principali: Cloud computing e gestione dell'infrastruttura, DB Management, CI/CD, Infrastructure-as-Code, Observability, Caching, Automation. Stack tecnologico: AWS, K8S, Helm, Docker, Pulumi, Terraform, Cloudformation, Cloudflare, Datadog, ELK Stack, Harness Drone CI, GitHub & GitHub Actions"
+            "description": "Ho fatto parte del team che si occupa di Cloud Engineering in Prima Assicurazioni, contribuendo a gestire l'intera infrastruttura su cui si basano i carichi di lavoro della compagnia. Ho contribuito a realizzare platform tools utili a migliorare l'esperienza degli sviluppatori. Sono stato titolare di un'iniziativa incentrata sulla condivisione dei principi e delle metodologie DevOps all'interno dell'azienda. Responsabilità principali: Cloud computing e gestione dell'infrastruttura, DB Management, CI/CD, Infrastructure-as-Code, Observability, Caching, Automation. Stack tecnologico: AWS, K8S, Helm, Docker, Pulumi, Terraform, Cloudformation, Cloudflare, Datadog, ELK Stack, Harness Drone CI, GitHub & GitHub Actions"
+        },
+        "6": {
+            "company": "Prima Assicurazioni",
+            "start": "Ott 2023",
+            "end": "attuale",
+            "role": "SRE Engineering Manager",
+            "description": "In qualità di leader di un team di Site Reliability Engineers, li guido (>10 persone) nel sostenere gli obiettivi dell'azienda e nell'istruire gli sviluppatori sulle migliori pratiche infrastrutturali. Il nostro obiettivo è aumentare l'autonomia degli sviluppatori nella gestione delle attività infrastrutturali e aderire all'approccio “you build it, you run it” utilizzando framework come Domain Driven Design e Team Topologies. Supervisiono le prestazioni dei team, do priorità alla loro crescita e al loro benessere e gestisco la DevOps Community of Practice, favorendo la condivisione delle conoscenze tra gli sviluppatori di Prima. Responsabilità principali: Gestione delle persone, Gestione della delivery, Definizione della strategia e della missione del team. Skills: Team Topologies, Domain Driven Design, Kanban, Shape Up"
         }
     },
     "education": {
@@ -367,7 +374,7 @@
             }
         },
         "project_mgmt": {
-            "description": "Project Managing e Processi",
+            "description": "Management",
             "tools": {
                 "0": {
                     "name": "Jira",
@@ -380,23 +387,30 @@
                 "2": {
                     "name": "ITIL",
                     "iconify_id": "codicon:checklist"
+                },
+                "3": {
+                    "name": "Team Topologies",
+                    "iconify_id": "codicon:checklist"
+                },
+                "4": {
+                    "name": "Domain Driven Design",
+                    "iconify_id": "codicon:checklist"
+                },
+                "5": {
+                    "name": "Scrum",
+                    "iconify_id": "codicon:checklist"
+                },
+                "6": {
+                    "name": "Kanban",
+                    "iconify_id": "codicon:checklist"
+                },
+                "7": {
+                    "name": "Shape Up",
+                    "iconify_id": "codicon:checklist"
                 }
             }
         }
 
-    },
-    "other_skills": {
-        "0": "Pluriennale esperienza in sviluppo integrazioni con CRM e gestionali utilizzando i seguenti protocolli: HTTP, REST, SOAP, HL7, TMF Standard (Telco)",
-        "1": "Integrazioni hardware su protocolli Serial TTY COM, USB COM",
-        "2": "Notifiche push e comunicazioni real time via web: HTTP Comet long polling, Websockets, HTTP server sent events",
-        "3": "Introduzione metodologia Agile in azienda (scrum, kanban) con Jira & Atlassian Suite",
-        "4": "Team leader di 4-5 persone",
-        "5": "Slack, Telegram Chatbot per notifiche automatiche monitoraggio",
-        "6": "Mentoring ai colleghi junior",
-        "7": "Analisi funzionali, analisi tecniche, stime tempistiche di progetto",
-        "8": "Gestione rapporti con stakeholders, sia tecnici sia operativi",
-        "9": "Abitudine a comunicare con il cliente",
-        "10": "Abitudine a lavorare per obiettivi"
     },
     "blog": {
         "0": {
@@ -413,6 +427,16 @@
             "platform": "Medium",
             "name": "Come fare code refactoring di un callback hell con async/await",
             "link": "https://medium.com/@matteo.deponti/come-fare-code-refactoring-di-un-callback-hell-con-async-await-26b8bc2b0dee"
+        }
+    },
+    "tech_talks": {
+        "0": {
+            "name": "Road to Domain Driven: vita spericolata di un Cloud Engineer",
+            "conference": "Incontro DevOps Italia 2024"
+        },
+        "1": {
+            "name": "Road to Domain Driven: vita spericolata di un Cloud Engineer",
+            "conference": "CloudConf 2024"
         }
     }
 }

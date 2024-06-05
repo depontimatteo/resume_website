@@ -107,17 +107,6 @@
                             </ul>
                         {% endfor %}
                     {% endif %}
-                    <div class="subheading mb-3">{{ gettext('Altre Skills')}}</div>
-                    <ul class="fa-ul mb-0">
-                    {% if bio["other_skills"].items()|length > 0 %}
-                        {% for key,skills_section in bio["other_skills"].items()|sort %}
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            {{ skills_section }}
-                        </li>
-                        {% endfor %}
-                    {% endif %}
-                    </ul>
                 </div>
             </section>
             <hr class="m-0" />
@@ -149,6 +138,21 @@
                             <img src="{{ url_for('static', filename='assets/img/Axelos_ITIL4_Foundations.png') }}" width="168" height="168" />
                         </div>
                     </div>
+                </div>
+            </section>
+            <section class="resume-section" id="blog">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">{{ gettext('Tech talks')}}</h2>
+                    <ul class="fa-ul mb-0">
+                        {% if bio["tech_talks"].items()|length > 0 %}
+                            {% for key,article in bio["tech_talks"].items()|sort %}
+                            <li>
+                                <span class="fa-li"><i class="far fa-newspaper"></i></span>
+                                {{ talk.conference }} - {{ talk.name }}</a>
+                            </li>
+                            {% endfor %}
+                        {% endif %}
+                    </ul>
                 </div>
             </section>
             <!-- Awards-->
