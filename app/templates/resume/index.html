@@ -145,7 +145,7 @@
                     <h2 class="mb-5">{{ gettext('Tech talks')}}</h2>
                     <ul class="fa-ul mb-0">
                         {% if bio["tech_talks"].items()|length > 0 %}
-                            {% for key,article in bio["tech_talks"].items()|sort %}
+                            {% for key,talk in bio["tech_talks"].items()|sort %}
                             <li>
                                 <span class="fa-li"><i class="far fa-newspaper"></i></span>
                                 {{ talk.conference }} - {{ talk.name }}</a>
