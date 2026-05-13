@@ -19,7 +19,7 @@ pytest = "^9.0"
 requests = "^2.31.0"
 selenium = "^4.8.2"
 black = "^26.3"
-flake8 = "^6.0.0"
+flake8 = ">=6,<8"
 
 [tool.poetry.dev-dependencies]
 
