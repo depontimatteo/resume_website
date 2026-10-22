@@ -19,7 +19,7 @@ jobs:
       matrix:
         include:
           - name: resume_website
-            context: ./resume_website
+            context: .
             image: resume_website
 
     steps:
