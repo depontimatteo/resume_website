@@ -1,0 +1,16 @@
+services:
+  resume_website_web:
+    image: ghcr.io/depontimatteo/resume_website:latest
+    container_name: resume_website
+    ports:
+      - "6000:6000"
+    environment:
+      PORT: 6000
+    networks:
+      - resume_website
+      - cloudflared_tunnel
+
+networks:
+  resume_website:
+  cloudflared_tunnel:
+    external: true
