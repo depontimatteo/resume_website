@@ -1,7 +1,7 @@
 FROM python:3.14-slim
 
 RUN apt-get update \
-    && apt-get install -y curl \
+    && apt-get install -y --no-install-recommends curl gcc libc6-dev \
     && apt-get autoremove -y \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
