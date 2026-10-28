@@ -1,6 +1,53 @@
 version: 2
 updates:
-  - package-ecosystem: "pip"
-    directory: "/"
+  - package-ecosystem: pip
+    schedule:
+      interval: weekly
+    cooldown:
+      default-days: 7
+    commit-message:
+      prefix: "chore(deps-pip)"
+    directories:
+      - app
+      - tests
+    insecure-external-code-execution: allow
+    groups:
+      pip-non-major:
+        patterns:
+          - "*"
+        update-types:
+          - "minor"
+          - "patch"
+
+  - package-ecosystem: "github-actions"
+    directory: ".github"
     schedule:
       interval: "weekly"
+    cooldown:
+      default-days: 7
+    commit-message:
+      prefix: "chore(deps-github-actions)"
+    groups:
+      github-actions-non-major:
+        patterns:
+          - "*"
+        update-types:
+          - "minor"
+          - "patch"
+
+  - package-ecosystem: docker
+    directories:
+      - "*"
+    schedule:
+      interval: weekly
+    cooldown:
+      default-days: 7
+    commit-message:
+      prefix: "chore(deps-docker)"
+    groups:
+      docker-non-major:
+        patterns:
+          - "*"
+        update-types:
+          - "minor"
+          - "patch"
